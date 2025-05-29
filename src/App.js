@@ -1,18 +1,8 @@
-import * as React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { Box, Container } from '@mui/material';
-import './App.css';
-
-import Header from './components/Header';
-import Footer from './components/Footer';
-
-import Home from './pages/Home';
-import Convert from './pages/Convert';
-import View from './pages/View';
+import { Box } from '@mui/material';
+import Home from './pages/Home5';
 
 export default function App() {
   return (
-    <Router>
       <Box
         sx={{
           backgroundColor: '#f4f4f4',
@@ -23,19 +13,9 @@ export default function App() {
           overflowX: 'hidden',
         }}
       >
-        <Header />
+        <Home />
 
-        <Container sx={{ flex: 1, py: 1 }}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/convert" element={<Convert />} />
-            <Route path="/view" element={<View />} />
-          </Routes>
-        </Container>
-
-        <Footer />
+      
       </Box>
-    </Router>
   );
 }
