@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/celenor/static/css/main.9cb304bb.css",
+    "main.js": "/celenor/static/js/main.1d5a97d4.js",
+    "static/js/453.f5cb117e.chunk.js": "/celenor/static/js/453.f5cb117e.chunk.js",
+    "index.html": "/celenor/index.html",
+    "main.9cb304bb.css.map": "/celenor/static/css/main.9cb304bb.css.map",
+    "main.1d5a97d4.js.map": "/celenor/static/js/main.1d5a97d4.js.map",
+    "453.f5cb117e.chunk.js.map": "/celenor/static/js/453.f5cb117e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cb304bb.css",
+    "static/js/main.1d5a97d4.js"
+  ]
+}
