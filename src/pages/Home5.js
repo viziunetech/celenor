@@ -27,7 +27,7 @@ const PageWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(${process.env.PUBLIC_URL}/images/background5.jpg) no-repeat center center fixed;
+  background: url(${process.env.PUBLIC_URL}/images/background11.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: 'Cinzel', serif;
   color: #fff;
